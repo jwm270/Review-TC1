@@ -1,0 +1,14 @@
+C:\Users\jwm27\OneDrive\Desktop\repos\review\bin\Debug\net9.0\review.exe
+C:\Users\jwm27\OneDrive\Desktop\repos\review\bin\Debug\net9.0\review.deps.json
+C:\Users\jwm27\OneDrive\Desktop\repos\review\bin\Debug\net9.0\review.runtimeconfig.json
+C:\Users\jwm27\OneDrive\Desktop\repos\review\bin\Debug\net9.0\review.dll
+C:\Users\jwm27\OneDrive\Desktop\repos\review\bin\Debug\net9.0\review.pdb
+C:\Users\jwm27\OneDrive\Desktop\repos\review\obj\Debug\net9.0\review.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jwm27\OneDrive\Desktop\repos\review\obj\Debug\net9.0\review.AssemblyInfoInputs.cache
+C:\Users\jwm27\OneDrive\Desktop\repos\review\obj\Debug\net9.0\review.AssemblyInfo.cs
+C:\Users\jwm27\OneDrive\Desktop\repos\review\obj\Debug\net9.0\review.csproj.CoreCompileInputs.cache
+C:\Users\jwm27\OneDrive\Desktop\repos\review\obj\Debug\net9.0\review.dll
+C:\Users\jwm27\OneDrive\Desktop\repos\review\obj\Debug\net9.0\refint\review.dll
+C:\Users\jwm27\OneDrive\Desktop\repos\review\obj\Debug\net9.0\review.pdb
+C:\Users\jwm27\OneDrive\Desktop\repos\review\obj\Debug\net9.0\review.genruntimeconfig.cache
+C:\Users\jwm27\OneDrive\Desktop\repos\review\obj\Debug\net9.0\ref\review.dll
