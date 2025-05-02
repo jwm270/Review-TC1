@@ -9,7 +9,7 @@ namespace review
         {
             double circleArea = Circle();
             
-            double calculateArea = Triangle();
+            Console.WriteLine($"The area of the triangle is:" + Triangle());
             
             double rectangleArea = Rectangle();
             
@@ -55,8 +55,6 @@ namespace review
             
             double area = calculateArea(baseLength, height);
             
-            Console.WriteLine("The area of the triangle is: {0}", area);
-            
             return area;
         }
         
@@ -75,10 +73,8 @@ namespace review
             double area = width * length;
             
             Console.WriteLine("The area of the rectangle is: {0}", area); //Why is this not extrapolated? "$"
-            
-            return length;
-            
-            return width;
+
+            return area;
         }
         
         //Area of a square A = S * S
