@@ -20,6 +20,8 @@ namespace review
             Console.WriteLine($"https://learn.microsoft.com/en-us/dotnet/api/system.convert.todouble?view=net-9.0");
             
             Console.WriteLine($"ToDouble is literally To Double...don't overthink it. Converting to DOUBLE or to INT for INTEGER...etc");
+            
+            Console.WriteLine($"make repo - cd into folder - git init - git remote add origin codeSSHURL - git add . - git commit -m (message in quotes) - git push origin main ");
         }
         public static double GetCircleArea(double radius)
         {
