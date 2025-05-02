@@ -7,13 +7,19 @@ namespace review
     {
         static void Main(string[] args)
         {
-            double circleArea = Circle();
+            Console.WriteLine($"The area of the circle is:" + Circle());
             
             Console.WriteLine($"The area of the triangle is:" + Triangle());
             
-            double rectangleArea = Rectangle();
+            Console.WriteLine("The area of the rectangle is:" + Rectangle());
             
-            double squareArea = Square();
+            Console.WriteLine("The area of Square is:" + Square());
+            
+            Console.WriteLine($"You must interpolate and not extrapolate!");
+            
+            Console.WriteLine($"https://learn.microsoft.com/en-us/dotnet/api/system.convert.todouble?view=net-9.0");
+            
+            Console.WriteLine($"ToDouble is literally To Double...don't overthink it. Converting to DOUBLE or to INT for INTEGER...etc");
         }
         public static double GetCircleArea(double radius)
         {
@@ -32,9 +38,7 @@ namespace review
             
             double area = GetCircleArea(radius);
             
-            Console.WriteLine($"The area of the circle is {area}");
-            
-           return area;
+            return area;
            
         }
 
@@ -70,10 +74,8 @@ namespace review
             
             double length = Convert.ToDouble(Console.ReadLine()); //How do I know to use ToDouble?
             
-            double area = width * length;
+            double area = width * length; //return width * length
             
-            Console.WriteLine("The area of the rectangle is: {0}", area); //Why is this not extrapolated? "$"
-
             return area;
         }
         
@@ -87,8 +89,6 @@ namespace review
             
             double area = side * side;
             
-            Console.WriteLine($"Area of Square with side {side} is: {area}"); //Why does this have to be $ extrapolated? When rectangle didn't have to be?
-            
             return area;
             
         }
@@ -100,6 +100,12 @@ namespace review
         {
             return a - b;
         }
-      
+        /* make repo
+  cd into folder
+  git init
+  git remote add origin codeSSHURL
+  git add .
+  git commit -m "message"
+  git push origin main */
     }
 }

@@ -12,3 +12,4 @@ C:\Users\jwm27\OneDrive\Desktop\repos\review\obj\Debug\net9.0\refint\review.dll
 C:\Users\jwm27\OneDrive\Desktop\repos\review\obj\Debug\net9.0\review.pdb
 C:\Users\jwm27\OneDrive\Desktop\repos\review\obj\Debug\net9.0\review.genruntimeconfig.cache
 C:\Users\jwm27\OneDrive\Desktop\repos\review\obj\Debug\net9.0\ref\review.dll
+C:\Users\jwm27\OneDrive\Desktop\repos\review\obj\Debug\net9.0\review.sourcelink.json
