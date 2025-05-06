@@ -23,30 +23,16 @@ namespace review
             
             Console.WriteLine($"make repo - cd into folder - git init - git remote add origin codeSSHURL - git add . - git commit -m (message in quotes) - git push origin main ");
         }
-        public static double GetCircleArea(double radius)
-        {
-            const float PI = 3.14159265358979323846f; //How do I know to use const float PI = 3.14...?
-            
-            double area = PI * radius * radius;
-            
-            return area;
-        }
-
+       
         static double Circle()
         {
             Console.WriteLine("Enter the radius of the circle:");
             
             double radius = Convert.ToDouble(Console.ReadLine());
             
-            double area = GetCircleArea(radius);
+            double area = Math.PI * radius * radius;
             
             return area;
-           
-        }
-
-        public static double calculateArea(double baseLength, double height)
-        {
-            return 0.5 * baseLength * height;
         }
 
         static double Triangle()
@@ -58,8 +44,8 @@ namespace review
             Console.WriteLine("Enter the height of the triangle:");
             
             double height = Convert.ToDouble(Console.ReadLine());
-            
-            double area = calculateArea(baseLength, height);
+
+            double area = (baseLength * height) / 2;
             
             return area;
         }
@@ -102,12 +88,12 @@ namespace review
         {
             return a - b;
         }
-        /* make repo
-  cd into folder
-  git init
-  git remote add origin codeSSHURL
-  git add .
-  git commit -m "message"
-  git push origin main */
+        //       /* make repo
+        // cd into folder
+        // git init
+        // git remote add origin codeSSHURL
+        // git add .
+        // git commit -m "message"
+        // git push origin main */
     }
 }
